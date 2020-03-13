@@ -1,0 +1,47 @@
+
+
+.mef-title-quizz {
+    color : rgb(255, 255, 255) ;
+    border-style: solid;
+    background-color: rgb(75, 119, 78);
+    max-width: 500px;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+    
+
+.mef-quest {
+    background-color: rgb(151, 224, 179);
+    border-style: double;
+    height: 150px;
+    margin-bottom: 20px;
+    margin-top: 25px;
+    padding: 15px;
+    border-spacing: 10px;
+    font-family: 'Trebuchet MS';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.mef-rep-quizz {
+    color : rgb(255, 255, 255) ;
+    border-style: solid;
+    border-radius: 20px;
+    background-color: rgb(75, 119, 78);
+    width: 300px;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+.mef-cat-title {
+    position: relative;
+    margin-top: 10px;
+}
+    

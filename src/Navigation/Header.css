@@ -1,0 +1,31 @@
+.mef-navlink {
+    color: rgb(243, 243, 243);
+    font-size: larger;;
+    padding: 10px
+    
+}
+
+.mef-navlink:hover {
+    color : white;
+    border-radius: 5px;
+    background-color: darkkhaki;
+    text-decoration: none;
+}
+
+.mef-bg {
+    background-color: rgb(75, 119, 78);
+    padding: 25px;
+    margin-top: 100px;
+}
+.title-quizz {
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    vertical-align: middle;
+    margin : auto;
+    margin-left: 0;
+    margin-right: 0;
+    
+    
+}
