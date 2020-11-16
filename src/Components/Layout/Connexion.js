@@ -1,6 +1,5 @@
 import React from "react";
 import { Form, Button } from "react-bootstrap";
-import "./Connexion.css";
 
 export default function Connexion() {
   return (
