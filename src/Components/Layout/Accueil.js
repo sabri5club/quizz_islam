@@ -3,7 +3,7 @@ import React, { Component } from "react";
 // import { useHistory } from "react-router-dom";
 // import { Link } from "react-router-dom";
 import history from "../../Navigation/History";
-import "./Accueil.css";
+
 
 export default class Accueil extends Component {
   onNavigateQuizz() {
@@ -22,6 +22,7 @@ export default class Accueil extends Component {
   render() {
     return (
       <>
+      <div className="row d-flex ">
         <div className="text-center">
           <h2>Bienvenue sur Quizz Islam</h2>
           <h3>Apprenez l'islam à travers plus de 10000 questions !</h3>
@@ -34,22 +35,23 @@ export default class Accueil extends Component {
           </h3>
         </div>
         <div className="mef-btn-position col d-flex justify-content-center">
-          <button onClick={this.onNavigateQuizzConfig} className="btn-accueil">
+          <button onClick={this.onNavigateQuizzConfig} className="btn-primary">
             {" "}
             Configurer le quizz
           </button>
         </div>
         <div className="mef-btn-position col d-flex justify-content-center">
-          <button onClick={this.onNavigateQuizz} className="btn-accueil">
+          <button onClick={this.onNavigateQuizz} className="btn-primary">
             {" "}
             Commencer le Quizz
           </button>
         </div>
         <div className="mef-btn-position col d-flex justify-content-center">
-          <button onClick={this.onNavigateSubmit} className="btn-accueil">
+          <button onClick={this.onNavigateSubmit} className="btn-primary">
             {" "}
             Proposez une question
           </button>
+        </div>
         </div>
       </>
     );

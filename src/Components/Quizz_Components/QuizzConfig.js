@@ -61,7 +61,9 @@ export default function QuizzConfig() {
                     <option value="3">Difficile</option>
                     <option value="3">Expert</option>
                   </Form.Control>
-                  <p>Choix catégorie :</p>
+
+                  <p style={{marginTop: 25}} className="text-center">Choix catégorie :</p>
+
                   {["checkbox"].map((type) => (
                     <div key={`inline-${type}`} className="mb-3">
                       <Form.Check
@@ -89,8 +91,10 @@ export default function QuizzConfig() {
                         type={type}
                         id={`inline-${type}-4`}
                       />
+
                     </div>
                   ))}
+
                 </Form>
               </div>
               <div className="col-12 col-md-12 d-flex justify-content-center align-items-start">
