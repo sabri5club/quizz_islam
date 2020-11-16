@@ -1,0 +1,14 @@
+.footer-home{
+    position: absolute;
+    bottom: 10;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(75, 119, 78);
+    border-radius: inherit;
+    vertical-align: inherit;
+    color: ivory;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    
+}

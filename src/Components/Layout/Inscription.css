@@ -1,0 +1,36 @@
+.mef-formconnexion {
+  background-color: rgb(75, 119, 78);
+  padding: 20px;
+  margin-top: 25px;
+  border: 10px;
+  color: rgb(255, 247, 244);
+  align-items: center;
+  width: 500px;
+  justify-content: right;
+}
+
+.btn-primary {
+  background-color: rgb(75, 119, 78) !important;
+  color: rgb(253, 250, 255);
+  border-color: rgb(75, 119, 78) !important;
+  font-weight: bold;
+  float: inline-start;
+  width: 200px;
+  padding: 50px;
+}
+
+.mef-title {
+  text-align: center;
+  margin-top: 25px;
+  color: rgb(75, 119, 78);
+}
+
+.mef-button-position {
+  text-align: center;
+  padding: 20px;
+  color: rgb(75, 119, 78);
+}
+
+.mef-placeholder {
+  text-align: center;
+}

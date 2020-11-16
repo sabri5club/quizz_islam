@@ -1,0 +1,178 @@
+.mef-title-quizz {
+  color: rgb(255, 255, 255);
+  background-color: rgb(49, 98, 61);
+  border-radius: 30px;
+  font-family: "Roboto";
+  max-width: 600px;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  padding: 15px;
+}
+
+.mef-quest {
+  /* background-color:#4b774e; */
+  color: rgb(255, 255, 255);
+  border-radius: 30px;
+  margin-bottom: 15px;
+  margin-top: 25px;
+  font-family: "Roboto";
+  font-size: large;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mef-rep-quizz {
+  color: rgb(255, 255, 255);
+  border-radius: 20px;
+  background-color: rgb(75, 119, 78);
+  max-width: 500px;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+
+.mef-rep-quizz:hover {
+  cursor: pointer;
+  background-color: rgb(109, 195, 113);
+}
+
+.mef-cat-title {
+  position: relative;
+  margin-top: 5px;
+}
+.mef-icon {
+  margin-left: 5px;
+  margin-top: 10px;
+}
+
+.mef-timer {
+  margin-top: 10px;
+}
+
+.mef-score {
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+.mef-report {
+  margin-top: 20px;
+}
+
+.mef-message {
+  font-family: "Roboto";
+  color: rgb(75, 119, 78);
+  font-size: large;
+}
+
+.mef-next {
+  max-width: 250px;
+  margin-top: 20px;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: large;
+}
+
+.mef-next:hover {
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.mef-report {
+  max-width: 250px;
+  margin-top: 20px;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: large;
+}
+
+.mef-report:hover {
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.progress-bar {
+  margin-top: 20px;
+  position: relative;
+  height: 15px;
+  width: 300px;
+  border-radius: 50px;
+  border: 1px solid #333;
+  background-color: rgb(246, 241, 250) !important;
+}
+
+.filler {
+  background: rgb(75, 119, 78);
+  height: 100%;
+  border-radius: inherit;
+  transition: width 0.2s ease-in;
+}
+
+.mef-QuizzFinish {
+  margin-top: 25px;
+  max-width: 300px;
+  font-family: "Roboto";
+}
+
+.mef-QuizzFinish.element {
+  max-width: 200px;
+  background-color: cornflowerblue;
+}
+
+.mef-exp {
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+progress[value]::-webkit-progress-value {
+  background-color: blueviolet;
+}
+
+.mef-card-categorie {
+  background-color: rgb(245, 243, 229);
+}
+.mef-card-categories {
+  background-color: rgb(140, 175, 240);
+}
+
+.svg {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+}
+
+.svg-circle-bg {
+  fill: none;
+}
+
+.svg-circle {
+  fill: navy;
+}
+.svg-circle-text {
+  font-size: 2rem;
+  text-anchor: middle;
+  fill: rgb(223, 78, 78);
+  font-weight: bold;
+}
+
+.mef-modal-card {
+  background-color: rgb(249, 251, 250);
+  opacity: 1;
+  margin: 0px;
+  padding: 0px;
+}
+
+.mef-modal-header {
+  background-color: rgb(32, 178, 122);
+  color: white;
+}
+
+.mef-modal-body {
+  background-color: rgb(155, 224, 198);
+  margin: 0px;
+  padding: 0 !important;
+}
